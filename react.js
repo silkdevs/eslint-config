@@ -83,15 +83,17 @@ module.exports = {
           '/^(@)?app/',
           '/^(@)?models/',
           '/^(@)?constants/',
-          '/^hooks/',
+          '/^(@)?hooks/',
+          '/^(@)?contexts/',
           '/^(@)?components/',
-          '/^pages/',
+          '/^(@)?pages/',
           '/^(@)?services/',
           '/^(@)?formatters/',
           '/^(@)?helpers/',
-          '/^utils/',
+          '/^(@)?errors/',
+          '/^(@)?utils/',
           '/^(@)?assets/',
-          '/^styles/'
+          '/^(@)?styles/'
         ],
         'alphabetize': {
           'order': 'asc',

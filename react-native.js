@@ -83,11 +83,13 @@ module.exports = {
           '/^(@)?models/',
           '/^(@)?constants/',
           '/^(@)?hooks/',
+          '/^(@)?contexts/',
           '/^(@)?components/',
           '/^(@)?pages/',
           '/^(@)?services/',
           '/^(@)?formatters/',
           '/^(@)?helpers/',
+          '/^(@)?errors/',
           '/^(@)?utils/',
           '/^(@)?assets/',
           '/^(@)?styles/'
