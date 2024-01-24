@@ -21,7 +21,8 @@ module.exports = {
     'jsx-a11y',
     '@typescript-eslint',
     'sort-destructure-keys',
-    'eslint-plugin-import-helpers'
+    'eslint-plugin-import-helpers',
+    'typescript-sort-keys'
   ],
   rules: {
     'prettier/prettier': [
@@ -112,7 +113,9 @@ module.exports = {
         'noSortAlphabetically': false,
         'reservedFirst': false
       }
-    ]
+    ],
+    'typescript-sort-keys/interface': 'error',
+    'typescript-sort-keys/string-enum': 'error'
   },
   settings: {
     react: {

@@ -22,7 +22,8 @@ module.exports = {
     'jsx-a11y',
     '@typescript-eslint',
     'sort-destructure-keys',
-    'eslint-plugin-import-helpers'
+    'eslint-plugin-import-helpers',
+    'typescript-sort-keys'
   ],
   rules: {
     'prettier/prettier': [
@@ -126,6 +127,8 @@ module.exports = {
     'jsx-a11y/aria-unsupported-elements': 'warn',
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
+    'typescript-sort-keys/interface': 'error',
+    'typescript-sort-keys/string-enum': 'error'
   },
   settings: {
     react: {
